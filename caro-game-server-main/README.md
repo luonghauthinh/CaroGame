@@ -1,6 +1,4 @@
-# Caro Game Server
-Introduce, Demo: https://youtu.be/ZLfz010cOX8 <br />
-Client source: https://github.com/Duc-ju/caro-game-client
+
 
 ## Run Step
 
@@ -30,11 +28,3 @@ CREATE TABLE BANNED_USER(
     ID_User int PRIMARY KEY NOT NULL,
     FOREIGN KEY (ID_User) REFERENCES `user`(ID)
 );
-```
-Change your database information to DAO.java
-```
-final String DATABASE_NAME = "caronhom5"; // TODO FILL YOUR DATABASE NAME
-...
-final String JDBC_USER = "root";  // TODO FILL YOUR DATABASE USER
-final String JDBC_PASSWORD = ""; // TODO FILL YOUR DATABASE PASSWORD
-```
